@@ -1,0 +1,47 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #b2ee94;
+    height: 100px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+main {
+    height: 400px;
+    position: relative;
+    top: 100px;
+    width: 100%;
+}
+
+.main-left {
+    background-color: #ff8983;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 50%;
+}
+
+.main-right {
+    background-color: #99c2fe;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+}
+
+footer {
+    background-color: #8881ff;
+    bottom: 0;
+    height: 100px;
+    position: absolute;
+    width: 100%;
+}
